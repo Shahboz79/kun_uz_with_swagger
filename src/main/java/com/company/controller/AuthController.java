@@ -3,6 +3,8 @@ package com.company.controller;
 import com.company.dto.AuthDTO;
 import com.company.dto.RegistrationDTO;
 import com.company.service.AuthService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -16,21 +18,19 @@ import javax.validation.Valid;
 @Slf4j
 @RestController
 @RequestMapping("/auth")
+@Api(tags = "Auth")
 public class AuthController {
     @Autowired
     private AuthService authService;
-    // private Logger log = LoggerFactory.getLogger(AuthController.class);
 
+    // private Logger log = LoggerFactory.getLogger(AuthController.class);
+    @ApiOperation(value = "Login", notes = "Method used for login and getting token.", nickname = "Mazgi")
     @PostMapping("/login")
     public ResponseEntity<?> create(@RequestBody @Valid AuthDTO dto) {
-        log.trace("Authorization:  {}", dto);
-        log.debug("Authorization:  {}", dto);
-        log.info("Authorization:  {}", dto);
-        log.warn("Authorization:  {}", dto);
-        log.error("Authorization:  {}", dto);
         return ResponseEntity.ok(authService.login(dto));
     }
 
+    @ApiOperation(value = "Registration", notes = "Method used for registration", nickname = "Mazgi")
     @PostMapping("/registration")
     public ResponseEntity<?> registration(@RequestBody RegistrationDTO dto) {
         log.trace("Registration:  {}", dto);
@@ -38,6 +38,7 @@ public class AuthController {
         return ResponseEntity.ok().build();
     }
 
+    @ApiOperation(value = "Email Verification", notes = "Method used Email verification")
     @GetMapping("/verification/{jwt}")
     public ResponseEntity<?> verification(@PathVariable("jwt") String jwt) {
         authService.verification(jwt);

@@ -1,0 +1,125 @@
+11 мая 2022 - 10:45:29.412 - com.company.Lesson88KunUzApplication -  INFO  - Starting Lesson88KunUzApplication using Java 17.0.2 on DESKTOP-9MOO2TH with PID 16100 (C:\Users\BigMan\Desktop\lesson_100_kun_uz\target\classes started by BigMan in C:\Users\BigMan\Desktop\lesson_100_kun_uz)
+11 мая 2022 - 10:45:29.488 - com.company.Lesson88KunUzApplication -  DEBUG - Running with Spring Boot v2.6.6, Spring v5.3.18
+11 мая 2022 - 10:45:29.490 - com.company.Lesson88KunUzApplication -  INFO  - The following 1 profile is active: "prod"
+11 мая 2022 - 10:45:32.515 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11 мая 2022 - 10:45:32.809 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 274 ms. Found 10 JPA repository interfaces.
+11 мая 2022 - 10:45:36.966 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port(s): 8080 (http)
+11 мая 2022 - 10:45:36.984 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+11 мая 2022 - 10:45:36.985 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/9.0.60]
+11 мая 2022 - 10:45:37.328 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+11 мая 2022 - 10:45:37.329 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 7628 ms
+11 мая 2022 - 10:45:37.514 - com.company.config.JwtFilter -  DEBUG - Filter 'jwtFilter' configured for use
+11 мая 2022 - 10:45:37.879 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+11 мая 2022 - 10:45:38.022 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 5.6.7.Final
+11 мая 2022 - 10:45:38.514 - o.h.annotations.common.Version -  INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11 мая 2022 - 10:45:38.819 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+11 мая 2022 - 10:45:41.769 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+11 мая 2022 - 10:45:41.835 - org.hibernate.dialect.Dialect -  INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+11 мая 2022 - 10:45:42.291 - Hibernate Types -  INFO  - This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+11 мая 2022 - 10:45:47.479 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:47.479 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_571gx7oqo5xpmgocegaidlcu9" of relation "article" does not exist, skipping
+11 мая 2022 - 10:45:47.874 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:47.875 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_6o3khc7a102vnx6yr62wtwgnv" of relation "article_type" does not exist, skipping
+11 мая 2022 - 10:45:48.400 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:48.401 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_58m62doqbrx1k7kav6n5ufjrh" of relation "article_type" does not exist, skipping
+11 мая 2022 - 10:45:48.779 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:48.779 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_t4wuwxcnottm4h488o1hmmc72" of relation "article_type" does not exist, skipping
+11 мая 2022 - 10:45:49.169 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:49.171 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_fxh43a8brn5m5hb7ouw0hslb8" of relation "article_type" does not exist, skipping
+11 мая 2022 - 10:45:49.565 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:49.566 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_2eg0kp0p6jl591y6kxa5rin4k" of relation "category" does not exist, skipping
+11 мая 2022 - 10:45:49.968 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:49.969 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_jlyort5524k21775eikrw7bul" of relation "category" does not exist, skipping
+11 мая 2022 - 10:45:50.349 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:50.350 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_t8djwq2x5wo1q7vuvxokchmj3" of relation "category" does not exist, skipping
+11 мая 2022 - 10:45:50.724 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:50.725 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_a1xt0sp8b6ysci0lsx0qfgomj" of relation "category" does not exist, skipping
+11 мая 2022 - 10:45:51.109 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:51.110 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_9d5dpsf2ufa6rjbi3y0elkdcd" of relation "profile" does not exist, skipping
+11 мая 2022 - 10:45:51.486 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:51.487 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_rowmgxnx4ltnki0cpq1yfkd7d" of relation "region" does not exist, skipping
+11 мая 2022 - 10:45:51.860 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:51.862 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_5acwsyhviyarfhfjuic22vvi7" of relation "region" does not exist, skipping
+11 мая 2022 - 10:45:52.274 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:52.275 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_p2n016ruvilvsoaqqcivbxx8i" of relation "region" does not exist, skipping
+11 мая 2022 - 10:45:52.650 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:52.650 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_kmsb5h2xsp3b53qadwmc8fg4i" of relation "region" does not exist, skipping
+11 мая 2022 - 10:45:53.033 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:53.034 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_k3rg9j6q29mc5psqemn8lxl3i" of relation "tag" does not exist, skipping
+11 мая 2022 - 10:45:53.433 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:53.434 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_7ro3okj08r9p96c5a97o0ek0e" of relation "tag" does not exist, skipping
+11 мая 2022 - 10:45:53.853 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:53.855 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_l01lmn9tmjl8yi63slpve5nn5" of relation "tag" does not exist, skipping
+11 мая 2022 - 10:45:54.324 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - SQL Warning Code: 0, SQLState: 00000
+11 мая 2022 - 10:45:54.325 - o.h.e.jdbc.spi.SqlExceptionHelper -  WARN  - constraint "uk_dgw0euqsvx3660s11thef0dcp" of relation "tag" does not exist, skipping
+11 мая 2022 - 10:45:57.035 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11 мая 2022 - 10:45:57.076 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11 мая 2022 - 10:46:00.184 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11 мая 2022 - 10:46:01.105 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+11 мая 2022 - 10:46:01.126 - com.company.Lesson88KunUzApplication -  INFO  - Started Lesson88KunUzApplication in 33.738 seconds (JVM running for 35.553)
+11 мая 2022 - 11:08:03.868 - com.company.Lesson88KunUzApplication -  INFO  - Starting Lesson88KunUzApplication using Java 17.0.2 on DESKTOP-9MOO2TH with PID 14444 (C:\Users\BigMan\Desktop\lesson_100_kun_uz\target\classes started by BigMan in C:\Users\BigMan\Desktop\lesson_100_kun_uz)
+11 мая 2022 - 11:08:03.874 - com.company.Lesson88KunUzApplication -  DEBUG - Running with Spring Boot v2.6.6, Spring v5.3.18
+11 мая 2022 - 11:08:03.875 - com.company.Lesson88KunUzApplication -  INFO  - The following 1 profile is active: "prod"
+11 мая 2022 - 11:08:08.602 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11 мая 2022 - 11:08:09.095 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 465 ms. Found 10 JPA repository interfaces.
+11 мая 2022 - 11:08:12.614 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port(s): 8080 (http)
+11 мая 2022 - 11:08:12.672 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+11 мая 2022 - 11:08:12.674 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/9.0.60]
+11 мая 2022 - 11:08:13.219 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+11 мая 2022 - 11:08:13.219 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 9166 ms
+11 мая 2022 - 11:08:13.434 - com.company.config.JwtFilter -  DEBUG - Filter 'jwtFilter' configured for use
+11 мая 2022 - 11:08:14.205 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+11 мая 2022 - 11:08:14.363 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 5.6.7.Final
+11 мая 2022 - 11:08:14.798 - o.h.annotations.common.Version -  INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11 мая 2022 - 11:08:15.093 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+11 мая 2022 - 11:08:18.679 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+11 мая 2022 - 11:08:18.773 - org.hibernate.dialect.Dialect -  INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+11 мая 2022 - 11:08:19.196 - Hibernate Types -  INFO  - This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+11 мая 2022 - 11:08:31.255 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11 мая 2022 - 11:08:31.271 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11 мая 2022 - 11:08:34.266 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11 мая 2022 - 11:08:35.595 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+11 мая 2022 - 11:08:35.630 - com.company.Lesson88KunUzApplication -  INFO  - Started Lesson88KunUzApplication in 34.016 seconds (JVM running for 36.67)
+11 мая 2022 - 11:08:44.998 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11 мая 2022 - 11:08:44.999 - o.s.web.servlet.DispatcherServlet -  INFO  - Initializing Servlet 'dispatcherServlet'
+11 мая 2022 - 11:08:45.000 - o.s.web.servlet.DispatcherServlet -  INFO  - Completed initialization in 1 ms

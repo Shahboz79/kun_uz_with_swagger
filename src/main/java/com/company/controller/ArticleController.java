@@ -6,6 +6,10 @@ import com.company.enums.LangEnum;
 import com.company.enums.ProfileRole;
 import com.company.service.ArticleService;
 import com.company.util.JwtUtil;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
+import io.swagger.annotations.Authorization;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -35,8 +39,9 @@ public class ArticleController {
 
 
     @GetMapping("/public/{id}")
-    public ResponseEntity<?> getById(@PathVariable("id") Integer articleId,
-                                     @RequestHeader(name = "Accepted-Language", defaultValue = "uz") LangEnum lang) {
+    @ApiOperation(value = "Get Article by Id", notes = "get article", response = ArticleDTO.class)
+    public ResponseEntity<ArticleDTO> getById(@PathVariable("id") Integer articleId,
+                                              @RequestHeader(name = "Accepted-Language", defaultValue = "uz") LangEnum lang) {
         return ResponseEntity.ok(articleService.getByIdPublished(articleId, lang));
     }
 
@@ -93,6 +98,8 @@ public class ArticleController {
      */
 
     @PostMapping("/adm")
+    @ApiOperation(value = "Create Article", notes = "", response = ArticleDTO.class,
+            authorizations = {@Authorization(value = "JWT Token")})
     public ResponseEntity<?> create(@RequestBody ArticleDTO dto, HttpServletRequest request) {
         Integer pId = JwtUtil.getIdFromHeader(request, ProfileRole.MODERATOR);
         return ResponseEntity.ok(articleService.create(dto, pId));
@@ -100,6 +107,8 @@ public class ArticleController {
 
 
     @PutMapping("/adm/{id}")
+    @ApiOperation(value = "Update Article", notes = "", response = ArticleDTO.class,
+            authorizations = {@Authorization(value = "JWT Token")})
     public ResponseEntity<?> update(@PathVariable("id") Integer id,
                                     @RequestBody ArticleDTO dto,
                                     HttpServletRequest request) {
@@ -108,6 +117,8 @@ public class ArticleController {
     }
 
     @PutMapping("/adm/{aId}/status")
+    @ApiOperation(value = "getGreeting", notes = "", response = Boolean.class,
+            authorizations = {@Authorization(value = "JWT Token")})
     public ResponseEntity<?> changeStatus(@PathVariable("aId") Integer aId,
                                           @RequestParam ArticleStatus status,
                                           HttpServletRequest request) {
